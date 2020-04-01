@@ -9,7 +9,7 @@ const TodoList = ({deleteFunc, list}) => {
         renderItem={({item}) => (
           <View>
             <Text style={styles.item}>{item}
-              <Text onPress={() => { deleteFunc(item) }}> ×</Text>
+              <Text onPress={() => { deleteFunc(item) }}>×</Text>
             </Text>
           </View>
         )}
